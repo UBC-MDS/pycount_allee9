@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pycount_allee9"
+version = "0.1.0"
+description = "my python counting package"
+authors = ["Allan Lee"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
